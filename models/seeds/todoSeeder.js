@@ -12,7 +12,3 @@ db.once('open', () => {
   }
   console.log('done')
 })
-
-
-
-
