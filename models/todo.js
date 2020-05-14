@@ -1,4 +1,4 @@
-//定義 Todo 資料結構
+//定義 Todo 資料結構 Schema
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const todoSchema = new Schema({
