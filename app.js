@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(methodOverride('_method'))
 // 將 request 導入路由器
 app.use(routes)
-
+app.use('/users', require('./routes/user'))
 app.listen(PORT, () => {
   console.log(`App is running on http://localhost:${PORT}`)
 })
